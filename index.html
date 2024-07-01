@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD GENERATOR</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>PASSWORD GENERATOR!</h1>
+    
+    <h3>YOUR PROBLEM; OUR SOLUTION</h3>
+    <div class="form">
+    <form>
+        <label for="size">ENTER PASSWORD SIZE</label><br>
+        <br>
+        <input type="number" id="size" name="size" min="4" max="16" placeholder="Choose Length">
+        
+    </form>
+    <br>
+    
+    <button
+              type="button"
+        
+              class="btn btn-primary" onclick="generatePassword()">GENERATE</button>
+    </div>
+
+    <div id="password"></div>
+
+
+</body>
+</html>
